@@ -2,11 +2,11 @@ spring:
   application:
     name: eureka-server
 server:
-      port: 8088
+      port: 8090
       
 eureka:
         instance:
-          hostname: localhost
+          hostname: 192.168.203.109
 client:
          registerWithEureka: false
          fetchRegistry: false
